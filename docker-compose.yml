@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  sound:
+    build: .
+    volumes:
+      - ./works:/works
+    ports:
+      - "8444:8444"
+    tty: true
+    stdin_open: true
+    privileged: true
+    command: jupyter nteract --port 8444 --ip=0.0.0 --allow-root --NotebookApp.token=''
