@@ -2,3 +2,5 @@ cell_data.csv
 donor_info.csv
 .ipynb_checkpoints
 *.csv
+datas
+*.txt
