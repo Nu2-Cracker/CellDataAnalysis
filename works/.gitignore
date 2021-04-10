@@ -3,4 +3,4 @@ donor_info.csv
 .ipynb_checkpoints
 *.csv
 datas
-*.txt
+cell_type_predicted.txt
