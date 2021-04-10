@@ -21,7 +21,7 @@ RUN pip install nteract_on_jupyter numpy pandas
 
 #R nteract kernel
 WORKDIR /works
-RUN Rscript install.R
+# RUN Rscript install.R
 
 
 EXPOSE 8444
